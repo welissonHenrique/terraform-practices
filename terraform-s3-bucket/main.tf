@@ -15,7 +15,6 @@ provider "aws" {
 
 resource "aws_s3_bucket" "my-bucket-test-328y327nadv73-ada" {
   bucket = "my-bucket-developer-test-7adwahwda7wa"
-  acl = "private"
 
   tags = {
     Name        = "My Bucket"
